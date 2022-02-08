@@ -7,7 +7,7 @@ showDiv(imageCounter = imageCOunter + m);
 }
 function showDiv(n) {
         var i;
-        var imageArray = document.getElementsByClassName("mySlides");
+        var imageArray = document.getElementsByClassName("myslides");
         if (n > imageArray.length) {
         imageCounter = 1;
         }
