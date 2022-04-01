@@ -1,0 +1,87 @@
+body{
+    background-color:#000;
+    margin: 0px;
+}
+#webbnamn{
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    align-self: center;
+    margin: 88px 17px;
+}
+#ansvarigutvecklare{
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+}
+
+#div-navbar{
+    position:fixed;
+    display: flex;
+    flex-direction: row;
+    min-width: 500px;
+    max-width: 1920px;
+    padding: 15px 15px 15px 10vw;
+    height: 80px;
+    column-gap: 13%;
+}
+.menyval{
+    color: white;
+    height: 45px;
+    width: auto;
+    font-size: 34px;
+    font-family: 'Chakra Petch', sans-serif;
+    text-shadow:
+    0px 2px 1px #bfddff,
+    0px 3px 6px white;
+    
+}
+.menyval:hover{
+    text-shadow:
+    0px 4px 2px #bfddff,
+    0px 6px 12px white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.bakbilder {
+    width: 100%;
+}
+.bildlådor {
+    width: 100%;
+    box-shadow: inset 150px 150px 40px black;
+}
+
+#droppmenylåda {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    margin-top: 376px;
+}
+
+#droppmeny-pil{
+    height: 150px;
+    opacity: 35%;
+}   
+#droppmeny-pil:hover{
+    opacity: 100%;
+    filter: drop-shadow(4px 0 5px white);
+    transition: filter,opacity 95ms ease-in-out;
+}
+#droppmeny-content {
+    width: 150px;
+    margin:0px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    gap: 10px;
+    
+    font-size: 15px;
+    background-color: white;
+    opacity: 100%;
+}
+
+#droppmeny-content > li {
+    margin: 4%;
+
+}
